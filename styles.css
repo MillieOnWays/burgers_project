@@ -1,0 +1,52 @@
+body {
+background-color: cadetblue;
+background-image: url(https://www.dinneratthezoo.com/wp-content/uploads/2019/12/homemade-french-fries-5.jpg) ;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+h3 {
+    color:white;
+    font-size: 20px;
+}
+.color {
+    color: white;
+}
+
+main {
+    background-color: teal;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.burger {
+    border-radius:50% ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.button1 {
+    background-color: yellow;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    width: 300px;
+    background-color:teal;
+    color:black;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 4px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+

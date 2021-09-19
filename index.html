@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millie's website</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+  <main>
+  <h1>Burgers 🍔 🍔 🍔</h1> 
+  <div>
+    <img class="burger"src="https://canadabeef.ca/wp-content/uploads/2018/05/Big-Burgers_1.jpg" style="width:300px;height:300px;" alt="burgers_img">
+  </div> 
+
+  <h3>Why we love them?</h3>
+  <p class= "color">Because we love delicious and round-shaped food.</p>
+  <p class= "color">You can always make it at home or order anywhere around the world.</p>
+  <hr>
+  <h3>Perfect with Burgers</h3>
+  <ul class= "color" >
+      <li>Crispy fries 🍟 🍟 🍟</li>
+      <li>Ice cold drinks🧋🍹🧊</li>
+      <li>Friends 👯‍♀️</li>
+  </ul>
+<h2 class= "color">Do you like burgers?</h2>
+<p class= "color">"Insert your answer here."</p>
+<button class="button1" onclick="Click()">Hell Yeah!🤘🏼</button>
+<button class="button1" onclick="Click2()">Not my thing.🤷🏻‍♀️</button>
+<br>
+<br>
+<button class="button2" onclick="Openlink()">Made with ❤️ at Codaisseur</button>
+</main>
+
+<script>
+function Click() {  
+
+    document.body.style.background="#57CC99"
+
+    let text;
+    let burgerAnswer = prompt("What's your favorite burger?");
+    if (burgerAnswer == null || burgerAnswer == "") {
+        window.alert("You cancelled. ");
+    } else {
+        window.alert(burgerAnswer + "! Good choice!");
+    } 
+}
+
+function Click2() {
+    document.body.style.background="#FF2442"
+
+    var txt;
+    if (confirm("Give it a second chance?")) {
+        txt = "Good one!";
+    } else {
+        txt = "I've tried! ";
+    }
+
+    window.alert(txt)
+}
+
+function Openlink() {
+ window.open("https://codaisseur.com/")   }
+
+</script>
+
+
+</body>
+  
+</html>
